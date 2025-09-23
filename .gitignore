@@ -3,3 +3,5 @@ yarn.lock
 /.build
 /*.xcodeproj
 /main
+xcuserdata
+project.xcworkspace

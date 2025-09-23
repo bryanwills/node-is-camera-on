@@ -1,10 +1,10 @@
-// swift-tools-version:5.5
+// swift-tools-version:5.9
 import PackageDescription
 
 let package = Package(
 	name: "IsCameraOnCLI",
 	platforms: [
-		.macOS(.v10_11)
+		.macOS(.v10_15)
 	],
 	products: [
 		.executable(
@@ -17,7 +17,7 @@ let package = Package(
 	dependencies: [
 		.package(
 			url: "https://github.com/sindresorhus/is-camera-on",
-			from: "2.0.2"
+			from: "3.0.0"
 		)
 	],
 	targets: [
